@@ -13,6 +13,8 @@
 		4E4F5A7827699D12007A47E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F5A7627699D12007A47E0 /* Main.storyboard */; };
 		4E4F5A7A27699D13007A47E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F5A7927699D13007A47E0 /* Assets.xcassets */; };
 		4E4F5A7D27699D13007A47E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E4F5A7B27699D13007A47E0 /* LaunchScreen.storyboard */; };
+		4E4F5A8527699DD6007A47E0 /* UIkitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F5A8427699DD6007A47E0 /* UIkitVC.swift */; };
+		4E4F5A8827699E2D007A47E0 /* UIkitScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4F5A8727699E2D007A47E0 /* UIkitScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4E4F5A7927699D13007A47E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E4F5A7C27699D13007A47E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E4F5A7E27699D13007A47E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E4F5A8427699DD6007A47E0 /* UIkitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIkitVC.swift; sourceTree = "<group>"; };
+		4E4F5A8727699E2D007A47E0 /* UIkitScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIkitScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,22 @@
 				4E4F5A7027699D12007A47E0 /* AppDelegate.swift */,
 				4E4F5A7227699D12007A47E0 /* SceneDelegate.swift */,
 				4E4F5A7427699D12007A47E0 /* ViewController.swift */,
+				4E4F5A8627699E24007A47E0 /* swiftui */,
 				4E4F5A7627699D12007A47E0 /* Main.storyboard */,
 				4E4F5A7927699D13007A47E0 /* Assets.xcassets */,
 				4E4F5A7B27699D13007A47E0 /* LaunchScreen.storyboard */,
 				4E4F5A7E27699D13007A47E0 /* Info.plist */,
 			);
 			path = "UIKIT+swiftui";
+			sourceTree = "<group>";
+		};
+		4E4F5A8627699E24007A47E0 /* swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				4E4F5A8427699DD6007A47E0 /* UIkitVC.swift */,
+				4E4F5A8727699E2D007A47E0 /* UIkitScene.swift */,
+			);
+			path = swiftui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 				4E4F5A7527699D12007A47E0 /* ViewController.swift in Sources */,
 				4E4F5A7127699D12007A47E0 /* AppDelegate.swift in Sources */,
 				4E4F5A7327699D12007A47E0 /* SceneDelegate.swift in Sources */,
+				4E4F5A8527699DD6007A47E0 /* UIkitVC.swift in Sources */,
+				4E4F5A8827699E2D007A47E0 /* UIkitScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
